@@ -67,7 +67,21 @@
      gradientUnits="userSpaceOnUse" /></defs>
 <style
    type="text/css"
-   id="style1">
+   id="blurdiv">
+  .blurdiv {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: inherit;
+  filter: blur(10px);
+  opacity: 0.75;
+}
+
+
+.media-content {
+  z-index: 1;
+}
 </style>
 <pattern
    x="-556"
